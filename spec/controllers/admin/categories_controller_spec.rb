@@ -16,6 +16,7 @@ describe Admin::CategoriesController do
     assert_response :redirect, :action => 'index'
   end
 
+## New Rspec Test for creating new category
 describe "test_create" do
      before(:each) do
       get :new
